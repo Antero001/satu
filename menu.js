@@ -154,7 +154,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     //conn.reply(m.chat, text.trim(), m)
     conn.sendMessage(m.chat, {
         contentText: text.trim(),
-        footerText: 'by yogi prasetya',
+        footerText: 'by Antero',
         buttons: [
           { buttonId: '.owner', buttonText: { displayText: 'owner' }, type: 1 },
           { buttonId: '.status', buttonText: { displayText: 'bots status' }, type: 1 }
