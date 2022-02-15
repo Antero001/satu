@@ -101,7 +101,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
         },
         "businessOwnerJid": "0@s.whatsapp.net"
       },
-      "footerText": "By Yogi Prasetya"
+      "footerText": "By Antero"
     }
   }, {quoted: m })
   conn.relayWAMessage(list, {waitForAck: true})
