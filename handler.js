@@ -260,7 +260,7 @@ module.exports = {
           if (xp > 200) m.reply('Ngecit -_-') // Hehehe
           else m.exp += xp
           if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-            this.send2Button(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, ' *メメメby yogi prasetya*', 'Buy', `${usedPrefix}buy`, 'Buy All', `${usedPrefix}buyall`, m)
+            this.send2Button(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, ' *メメメby Antero*', 'Buy', `${usedPrefix}buy`, 'Buy All', `${usedPrefix}buyall`, m)
             continue // Limit habis
           }
           if (plugin.level > _user.level) {
@@ -431,7 +431,7 @@ Terdeteksi @${m.participant.split`@`[0]} telah menghapus pesan
 
 Untuk mematikan fitur ini, ketik
 *.enable delete*
-`.trim(), ' *メメメby yogi prasetya*', 'Matikan', '.1 delete', m.message)
+`.trim(), ' *メメメby Antero*', 'Matikan', '.1 delete', m.message)
     this.copyNForward(m.key.remoteJid, m.message).catch(e => console.log(e, m))
   },
   async onCall(json) {
