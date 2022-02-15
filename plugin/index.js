@@ -1,11 +1,11 @@
 let handler = async (m, { conn, text, usedPrefix }) => {
 
-    contentText = `*Tsukasa Botz*
+    contentText = `*Oreo_Bot*
 
 Hi ${conn.getName(m.sender)}
 *メ* Status : ${opts.disable ? 'Private' : 'Public'}
-*メ* Script By : https://github.com/Nurutomo
-*メ* Modified by : Yogi Prasetya
+*メ* Script By : https://github.com/Antero001
+*メ* Modified by : Antero
 
 
 
